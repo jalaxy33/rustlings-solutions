@@ -23,3 +23,8 @@ mod tests {
         assert_eq!(fav_fruits_iterator.next(), None); // TODO: Replace `todo!()`
     }
 }
+
+// Hint
+// An iterator goes through all elements in a collection, but what if we've run
+// out of elements? What should we expect here? If you're stuck, take a look at
+// https://doc.rust-lang.org/std/iter/trait.Iterator.html

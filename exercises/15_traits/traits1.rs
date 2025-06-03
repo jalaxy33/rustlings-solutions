@@ -31,3 +31,9 @@ mod tests {
         assert_eq!(String::from("").append_bar().append_bar(), "BarBar");
     }
 }
+
+// Hint
+// More about traits in The Book:
+// https://doc.rust-lang.org/book/ch10-02-traits.html
+
+// The `+` operator can concatenate a `String` with a `&str`.

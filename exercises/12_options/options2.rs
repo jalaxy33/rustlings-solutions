@@ -37,3 +37,15 @@ mod tests {
         assert_eq!(cursor, 0);
     }
 }
+
+// Hint
+// Check out:
+
+// - https://doc.rust-lang.org/rust-by-example/flow_control/if_let.html
+// - https://doc.rust-lang.org/rust-by-example/flow_control/while_let.html
+
+// Remember that `Option`s can be nested in if-let and while-let statements.
+
+// For example: `if let Some(Some(x)) = y`
+
+// Also see `Option::flatten`

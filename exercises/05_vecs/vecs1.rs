@@ -22,3 +22,14 @@ mod tests {
         assert_eq!(a, *v);
     }
 }
+
+// Hint
+// In Rust, there are two ways to define a Vector.
+// 1. One way is to use the `Vec::new()` function to create a new vector
+//    and fill it with the `push()` method.
+// 2. The second way is to use the `vec![]` macro and define your elements
+//    inside the square brackets. This way is simpler when you exactly know
+//    the initial values.
+
+// Check this chapter: https://doc.rust-lang.org/book/ch08-01-vectors.html
+// of the Rust book to learn more.

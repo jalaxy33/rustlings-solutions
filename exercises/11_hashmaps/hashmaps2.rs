@@ -96,3 +96,9 @@ mod tests {
         }
     }
 }
+
+// Hint
+// Use the `entry()` and `or_insert()` methods of `HashMap` to achieve this.
+
+// Learn more in The Book:
+// https://doc.rust-lang.org/book/ch08-03-hash-maps.html#only-inserting-a-value-if-the-key-has-no-value

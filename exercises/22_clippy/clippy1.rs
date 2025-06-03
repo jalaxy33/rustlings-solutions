@@ -15,3 +15,15 @@ fn main() {
 
     println!("The area of a circle with radius {radius:.2} is {area:.5}");
 }
+
+// Hint
+// Rust stores the highest precision version of some long or infinite precision
+// mathematical constants in the Rust standard library:
+// https://doc.rust-lang.org/stable/std/f32/consts/index.html
+
+// We may be tempted to use our own approximations for certain mathematical
+// constants, but clippy recognizes those imprecise mathematical constants as a
+// source of potential error.
+
+// See the suggestions of the Clippy warning in the compile output and use the
+// appropriate replacement constant from `std::f32::consts`.

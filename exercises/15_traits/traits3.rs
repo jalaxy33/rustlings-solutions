@@ -38,3 +38,11 @@ mod tests {
         assert_eq!(other_software.licensing_info(), licensing_info);
     }
 }
+
+// Hint
+// Traits can have a default implementation for functions. Data types that
+// implement the trait can then use the default version of these functions
+// if they choose not to implement the function themselves.
+
+// Related section in The Book:
+// https://doc.rust-lang.org/book/ch10-02-traits.html#default-implementations

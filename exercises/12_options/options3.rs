@@ -22,3 +22,11 @@ fn main() {
 
     println!("{optional_point:?}"); // Don't change this line.
 }
+
+// Hint
+// The compiler says a partial move happened in the `match` statement. How can
+// this be avoided? The compiler shows the correction needed.
+
+// After making the correction as suggested by the compiler, read the related docs
+// page:
+// https://doc.rust-lang.org/std/keyword.ref.html

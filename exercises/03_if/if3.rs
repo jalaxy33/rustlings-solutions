@@ -51,3 +51,7 @@ mod tests {
         assert_eq!(animal_habitat("dinosaur"), "Unknown")
     }
 }
+
+// Hint
+// In Rust, every arm of an `if` expression has to return the same type of value.
+// Make sure the type is consistent across all arms.

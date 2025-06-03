@@ -49,3 +49,9 @@ mod tests {
         assert_eq!(PositiveNonzeroInteger::new(0), Err(CreationError::Zero));
     }
 }
+
+// Hint
+// `PositiveNonzeroInteger::new` is always creating a new instance and returning
+// an `Ok` result. But it should be doing some checking, returning an `Err` if
+// those checks fail, and only returning an `Ok` if those checks determine that
+// everything is… okay :)

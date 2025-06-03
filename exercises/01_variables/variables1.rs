@@ -4,3 +4,7 @@ fn main() {
 
     println!("x has the value {x}");
 }
+
+// Hint
+// The declaration in the `main` function is missing a keyword that is needed
+// in Rust to create a new variable binding.

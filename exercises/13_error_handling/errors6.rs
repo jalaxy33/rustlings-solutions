@@ -91,3 +91,15 @@ mod test {
         assert_eq!(PositiveNonzeroInteger::parse("42"), Ok(x));
     }
 }
+
+// Hint
+// This exercise uses a completed version of `PositiveNonzeroInteger` from the
+// previous exercises.
+
+// Below the line that `TODO` asks you to change, there is an example of using
+// the `map_err()` method on a `Result` to transform one type of error into
+// another. Try using something similar on the `Result` from `parse()`. You
+// can then use the `?` operator to return early.
+
+// Read more about `map_err()` in the `std::result` documentation:
+// https://doc.rust-lang.org/std/result/enum.Result.html#method.map_err

@@ -8,3 +8,7 @@ fn main() {
     // TODO: Fix the macro call.
     my_macro!();
 }
+
+// Hint
+// When you call a macro, you need to add something special compared to a regular
+// function call.

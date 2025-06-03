@@ -36,3 +36,7 @@ fn main() {
         message.call();
     }
 }
+
+// Hint
+// You can create enumerations that have different variants with different types
+// such as anonymous structs, structs, a single string, tuples, no data, etc.

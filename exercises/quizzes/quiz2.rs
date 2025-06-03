@@ -76,3 +76,6 @@ mod tests {
         );
     }
 }
+
+// Hint
+// The `+` operator can concatenate a `String` with a `&str`.

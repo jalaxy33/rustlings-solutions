@@ -27,3 +27,10 @@ mod tests {
         assert_eq!(foo.pop().unwrap(), "Foo");
     }
 }
+
+// Hint
+// Notice how the trait takes ownership of `self` and returns `Self`.
+
+// Although the signature of `append_bar` in the trait takes `self` as argument,
+// the implementation can take `mut self` instead. This is possible because the
+// the value is owned anyway.

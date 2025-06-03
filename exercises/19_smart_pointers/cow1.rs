@@ -67,3 +67,10 @@ mod tests {
         assert!(matches!(input, Cow::Owned(_)));
     }
 }
+
+// Hint
+// If `Cow` already owns the data, it doesn't need to clone it when `to_mut()` is
+// called.
+
+// Check out the documentation of the `Cow` type:
+// https://doc.rust-lang.org/std/borrow/enum.Cow.html

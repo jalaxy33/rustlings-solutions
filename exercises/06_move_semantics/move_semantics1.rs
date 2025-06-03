@@ -22,3 +22,12 @@ mod tests {
         assert_eq!(vec1, vec![22, 44, 66, 88]);
     }
 }
+
+// Hint
+// So you've got the "cannot borrow `vec` as mutable, as it is not declared as
+// mutable" error on the line where we push an element to the vector, right?
+
+// The fix for this is going to be adding one keyword, and the addition is NOT on
+// the line where we push to the vector (where the error is).
+
+// Try accessing `vec0` after having called `fill_vec()`. See what happens!

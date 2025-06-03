@@ -14,3 +14,8 @@ fn main() {
         println!("Good evening!");
     }
 }
+
+// Hint
+// In Rust, a boolean can be negated using the operator `!` before it.
+// Example: `!true == false`
+// This also works with boolean variables.

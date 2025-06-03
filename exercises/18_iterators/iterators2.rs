@@ -57,3 +57,28 @@ mod tests {
         assert_eq!(capitalize_words_string(&words), "Hello World");
     }
 }
+
+// Hint
+// `capitalize_first`:
+
+// The variable `first` is a `char`. It needs to be capitalized and added to the
+// remaining characters in `chars` in order to return the correct `String`.
+
+// The remaining characters in `chars` can be viewed as a string slice using the
+// `as_str` method.
+
+// The documentation for `char` contains many useful methods.
+// https://doc.rust-lang.org/std/primitive.char.html
+
+// Use `char::to_uppercase`. It returns an iterator that can be converted to a
+// `String`.
+
+// `capitalize_words_vector`:
+
+// Create an iterator from the slice. Transform the iterated values by applying
+// the `capitalize_first` function. Remember to `collect` the iterator.
+
+// `capitalize_words_string`:
+
+// This is surprisingly similar to the previous solution. `collect` is very
+// powerful and very general. Rust just needs to know the desired type.

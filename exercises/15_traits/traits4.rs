@@ -33,3 +33,10 @@ mod tests {
         assert!(compare_license_types(OtherSoftware, SomeSoftware));
     }
 }
+
+// Hint
+// Instead of using concrete types as parameters you can use traits. Try replacing
+// `???` with `impl [what goes here?]`.
+
+// Related section in The Book:
+// https://doc.rust-lang.org/book/ch10-02-traits.html#traits-as-parameters

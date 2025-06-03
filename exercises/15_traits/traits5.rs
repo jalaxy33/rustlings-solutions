@@ -37,3 +37,10 @@ mod tests {
         assert!(some_func(OtherStruct));
     }
 }
+
+// Hint
+// To ensure a parameter implements multiple traits use the '+ syntax'. Try
+// replacing `???` with 'impl [what goes here?] + [what goes here?]'.
+
+// Related section in The Book:
+// https://doc.rust-lang.org/book/ch10-02-traits.html#specifying-multiple-trait-bounds-with-the--syntax

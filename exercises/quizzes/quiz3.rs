@@ -65,3 +65,14 @@ mod tests {
         );
     }
 }
+
+// Hint
+// To find the best solution to this challenge, you need to recall your knowledge
+// of traits, specifically "Trait Bound Syntax":
+// https://doc.rust-lang.org/book/ch10-02-traits.html#trait-bound-syntax
+
+// Here is how to specify a trait bound for an implementation block:
+// `impl<T: Trait1 + Trait2 + …> for Foo<T> { … }`
+
+// You may need this:
+// `use std::fmt::Display;`

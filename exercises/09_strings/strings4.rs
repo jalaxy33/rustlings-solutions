@@ -35,3 +35,13 @@ fn main() {
 
     string("mY sHiFt KeY iS sTiCkY".to_lowercase());
 }
+
+// Hint
+// Replace `placeholder` with either `string` or `string_slice` in the `main`
+// function.
+
+// Example:
+// `placeholder("blue");`
+// should become
+// `string_slice("blue");`
+// because "blue" is `&str`, not `String`.

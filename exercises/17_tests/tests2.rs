@@ -21,3 +21,8 @@ mod tests {
         assert_eq!(power_of_2(6), 64);
     }
 }
+
+// Hint
+// `assert_eq!` is a macro that takes two arguments and compares them. Try giving
+// it two values that are equal! Try giving it two arguments that are different!
+// Try switching which argument comes first and which comes second!

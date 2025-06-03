@@ -22,3 +22,7 @@ mod tests {
         assert_eq!(average(&[3.5, 0.3, 13.0, 11.7]), 7.125);
     }
 }
+
+// Hint
+// Use the `as` operator to cast one of the operands in the last line of the
+// `average` function into the expected return type.

@@ -12,10 +12,10 @@ fn factorial(num: u64) -> u64 {
     // - recursion
 
     // Solution 1:
-    // (1..=num).product()
+    (1..=num).product()
 
     // Solution 2:
-    (2..=num).fold(1, |acc, x| acc * x)
+    // (2..=num).fold(1, |acc, x| acc * x)
 }
 
 fn main() {
@@ -45,3 +45,11 @@ mod tests {
         assert_eq!(factorial(4), 24);
     }
 }
+
+// Hint
+// In an imperative language, you might write a `for` loop that updates a mutable
+// variable. Or, you might write code utilizing recursion and a match clause. In
+// Rust, you can take another functional approach, computing the factorial
+// elegantly with ranges and iterators.
+
+// Check out the `fold` and `rfold` methods!

@@ -93,3 +93,11 @@ mod tests {
         assert!(state.quit);
     }
 }
+
+// Hint
+// As a first step, define enums to compile the code without errors.
+
+// Then, create a match expression in `process()`.
+
+// Note that you need to deconstruct some message variants in the match expression
+// to get the variant's values.

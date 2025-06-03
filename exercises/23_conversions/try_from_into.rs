@@ -192,3 +192,10 @@ mod tests {
         assert_eq!(Color::try_from(&v[..]), Err(BadLen));
     }
 }
+
+// Hint
+// Is there an implementation of `TryFrom` in the standard library that can both do
+// the required integer conversion and check the range of the input?
+
+// Challenge: Can you make the `TryFrom` implementations generic over many integer
+// types?

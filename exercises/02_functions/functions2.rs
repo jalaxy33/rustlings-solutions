@@ -8,3 +8,7 @@ fn call_me(num: u32) {
 fn main() {
     call_me(3);
 }
+
+// Hint
+// Rust requires that all parts of a function's signature have type annotations,
+// but `call_me` is missing the type annotation of `num`.

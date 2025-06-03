@@ -29,3 +29,7 @@ mod tests {
         assert_eq!(Wrapper::new("Foo").value, "Foo");
     }
 }
+
+// Hint
+// Related section in The Book:
+// https://doc.rust-lang.org/book/ch10-01-syntax.html#in-method-definitions

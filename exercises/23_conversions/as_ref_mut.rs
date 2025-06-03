@@ -62,3 +62,6 @@ mod tests {
         assert_eq!(*num, 9);
     }
 }
+
+// Hint
+// Add `AsRef<str>` or `AsMut<u32>` as a trait bound to the functions.

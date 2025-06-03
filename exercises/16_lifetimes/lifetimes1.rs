@@ -26,3 +26,7 @@ mod tests {
         assert_eq!(longest("abc", "1234"), "1234");
     }
 }
+
+// Hint
+// Let the compiler guide you. Also take a look at The Book if you need help:
+// https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html

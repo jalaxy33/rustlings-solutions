@@ -49,3 +49,11 @@ mod tests {
         let _rect = Rectangle::new(10, -10);
     }
 }
+
+// Hint
+// We expect the method `Rectangle::new` to panic for negative values.
+
+// To handle that, you need to add a special attribute to the test function.
+
+// You can refer to the docs:
+// https://doc.rust-lang.org/book/ch11-01-writing-tests.html#checking-for-panics-with-should_panic

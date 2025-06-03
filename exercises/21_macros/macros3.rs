@@ -12,3 +12,7 @@ mod macros {
 fn main() {
     my_macro!();
 }
+
+// Hint
+// In order to use a macro outside of its module, you need to do something
+// special to the module to lift the macro out into its parent.

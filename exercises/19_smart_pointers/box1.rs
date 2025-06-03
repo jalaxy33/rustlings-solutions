@@ -48,3 +48,17 @@ mod tests {
         assert_ne!(create_empty_list(), create_non_empty_list());
     }
 }
+
+// Hint
+// The compiler's message should help: Since we cannot store the value of the
+// actual type when working with recursive types, we need to store a reference
+// (pointer) to its value.
+
+// We should, therefore, place our `List` inside a `Box`. More details in The Book:
+// https://doc.rust-lang.org/book/ch15-01-box.html#enabling-recursive-types-with-boxes
+
+// Creating an empty list should be fairly straightforward (Hint: Read the tests).
+
+// For a non-empty list, keep in mind that we want to use our `Cons` list builder.
+// Although the current list is one of integers (`i32`), feel free to change the
+// definition and try other types!

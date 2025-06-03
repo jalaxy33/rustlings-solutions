@@ -143,3 +143,17 @@ mod tests {
         assert_eq!("John,32,man".parse::<Person>(), Err(BadLen));
     }
 }
+
+// Hint
+// The implementation of `FromStr` should return an `Ok` with a `Person` object,
+// or an `Err` with an error if the string is not valid.
+
+// This is almost like the previous `from_into` exercise, but returning errors
+// instead of falling back to a default value.
+
+// Another hint: You can use the `map_err` method of `Result` with a function or a
+// closure to wrap the error from `parse::<u8>`.
+
+// Yet another hint: If you would like to propagate errors by using the `?`
+// operator in your solution, you might want to look at
+// https://doc.rust-lang.org/stable/rust-by-example/error/multiple_error_types/reenter_question_mark.html

@@ -31,7 +31,7 @@ fn build_scores_table(results: &str) -> HashMap<&str, TeamScores> {
         // Keep in mind that goals scored by team 1 will be the number of goals
         // conceded by team 2. Similarly, goals scored by team 2 will be the
         // number of goals conceded by team 1.
-        
+
         let team1 = scores.entry(team_1_name).or_default();
         team1.goals_scored += team_1_score;
         team1.goals_conceded += team_2_score;
@@ -83,3 +83,13 @@ England,Spain,1,0";
         assert_eq!(team.goals_conceded, 3);
     }
 }
+
+// Hint
+// Hint 1: Use the `entry()` and `or_default()` methods of `HashMap` to insert the
+//         default value of `TeamScores` if a team doesn't exist in the table yet.
+
+// Hint 2: If there is already an entry for a given key, the value returned by
+//         `entry()` can be updated based on the existing value.
+
+// Learn more in The Book:
+// https://doc.rust-lang.org/book/ch08-03-hash-maps.html#updating-a-value-based-on-the-old-value
